@@ -1,4 +1,4 @@
-package inheritance;
+package javaPackage;
 
 public class ObjectInitializationOrder {
 	

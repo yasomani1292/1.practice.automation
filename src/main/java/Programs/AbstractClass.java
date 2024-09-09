@@ -1,4 +1,4 @@
-package programs;
+package Programs;
 
 public abstract class AbstractClass {
 

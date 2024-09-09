@@ -1,4 +1,4 @@
-package javaPractice;
+package javaPackage;
 
 import javax.swing.text.StyledEditorKit.ForegroundAction;
 

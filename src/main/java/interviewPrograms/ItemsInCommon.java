@@ -1,6 +1,6 @@
-package programs;
+package interviewPrograms;
 
-public class AlationInterview {
+public class ItemsInCommon {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
