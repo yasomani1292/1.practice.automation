@@ -15,24 +15,21 @@ public class TwosumProgram {
 	        int num = nums[i];
 	        // Calculate the complement needed to reach the target
 	        int complement = target - num;
-	 
+            	 
 	        // Check if the map contains the complement
 	        if (numMap.containsKey(complement)) {
 	            // Return the indices of the complement and current number
-	            return new int[]{numMap.get(complement), i};
+            return new int[]{numMap.get(complement), i};
 	        }
 	        // Store the current number and its index in the map
 	        numMap.put(num, i);
 	    }
-	 
 	    // Return an empty array if no pair was found
 	    return new int[]{};
 	}
-
-
-
 	    public static void main(String[] args) {
 	        System.out.println(Arrays.toString(twoSum(new int[]{2, 7, 11, 15}, 9)));
+	        
 	        System.out.println(Arrays.toString(twoSum(new int[]{3, 2, 4}, 6)));
 	        System.out.println(Arrays.toString(twoSum(new int[]{3, 3}, 6)));
 	        System.out.println(Arrays.toString(twoSum(new int[]{1, 2, 3, 4, 5}, 10)));

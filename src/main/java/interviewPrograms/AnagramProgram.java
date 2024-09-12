@@ -23,7 +23,7 @@ public class AnagramProgram {
                 anagramGroups.put(canonical, group);
             }
         }
- 
+        System.out.println(anagramGroups);
         return new ArrayList<>(anagramGroups.values());
     }
     
