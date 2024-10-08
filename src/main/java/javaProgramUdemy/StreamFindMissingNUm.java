@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FindMissingNumbers {
+public class StreamFindMissingNUm {
 
 	public static void missingNumbers(int[] arr, int n)
 	{ 	
